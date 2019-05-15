@@ -16,8 +16,8 @@ Install the python packages in reuirements.txt file. Add "test_questions.json" a
 
 Final Model consists of four sets of features: hand-crafted, tfidf-word vector of tweet text, tfidf-char vector of tweet-text and topic modelling features.
 
-hand_crafted (selected_features2)+ tfidf-word + topic features should produce a result of ~3.268
-hand_crafted (selected_features2)+ tfidf-word + tfidf-char + topic features should produce a result of ~3.266
-hand_crafted (selected_features1) + topic features should produce a result of ~3.272
+* hand_crafted (selected_features2)+ tfidf-word + topic features should produce a result of ~3.268
+* hand_crafted (selected_features2)+ tfidf-word + tfidf-char + topic features should produce a result of ~3.266
+* hand_crafted (selected_features1) + topic features should produce a result of ~3.272
 
 To modify what features to include, use config.py 
