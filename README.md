@@ -11,3 +11,13 @@ These instructions will get you a Machine Learning model that predicts the numbe
 ### Prerequisites
 
 Install the python packages in reuirements.txt file. Add "test_questions.json" and "train.json" to the data folder then make apporpriate changes to "config.py" and then running `bash run_all.sh` will save the submission file in the results folder
+
+### Note
+
+Final Model consists of four sets of features: hand-crafted, tfidf-word vector of tweet text, tfidf-char vector of tweet-text and topic modelling features.
+
+hand_crafted (selected_features2)+ tfidf-word + topic features should produce a result of ~3.268
+hand_crafted (selected_features2)+ tfidf-word + tfidf-char + topic features should produce a result of ~3.266
+hand_crafted (selected_features1) + topic features should produce a result of ~3.272
+
+To modify what features to include, use config.py 
