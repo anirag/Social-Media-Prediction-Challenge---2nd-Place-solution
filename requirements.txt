@@ -46,7 +46,7 @@ cairocffi==0.9.0
 CairoSVG==2.2.1
 catboost==0.14.2
 category-encoders==1.2.6
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.11.5
 chances==0.1.1
 chardet==3.0.4
